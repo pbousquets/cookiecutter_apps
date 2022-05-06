@@ -1,0 +1,10 @@
+{
+    "app_full_name": "Hello World",
+    "app_name": "{{ cookiecutter.app_full_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+    "version": "1.0.0",
+    "assembly": "GRCh37",
+    "species": "HUMAN",
+    "description": "{{ cookiecutter.app_full_name }} app for Isabl's framework.",
+    "author_name": "Pablo Bousquets Muñoz",
+    "year": "2022"
+}

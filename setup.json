@@ -1,0 +1,42 @@
+ññ{
+    "author": "Juan S. Medina, Juan E. Arango",
+    "classifiers": [
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: Unix",
+        "Operating System :: POSIX",
+        "Topic :: Utilities"
+    ],
+    "install_requires": [
+        "cookiecutter==1.6.0"
+    ],
+    "setup_requires": [
+        "pytest-runner==2.11.1"
+    ],
+    "extras_require": {
+        "test": [
+            "pytest-cookies==0.3.0",
+            "binaryornot==0.4.4",
+            "ipdb==0.11",
+            "coverage==4.4.2",
+            "pydocstyle==2.1.1",
+            "pytest==3.7.4",
+            "pytest-cov==2.5.1",
+            "pytest-env==0.6.2",
+            "pytest-sugar==0.9.1",
+            "pylint==1.8.1",
+            "factory-boy==2.11.1 ",
+            "tox==2.9.1",
+            "black==18.9b0",
+            "pluggy==0.7.1"
+        ]
+    },
+    "keywords": [
+        "cookiecutter",
+        "isabl"
+    ],
+    "license": "BSD",
+    "name": "cookiecutter-apps",
+    "description": "🍪 A cookiecutter for the creation of a custom isabl cli tool.",
+    "long_description": "📘 learn more on `GitHub <https://github.com/isabl-io/cookiecutter-apps>`_!",
+    "url": "https://github.com/isabl-io/cookiecutter-apps"
+}
