@@ -30,7 +30,7 @@ class {{cookiecutter.app_name}}(AbstractApplication):
 
     # You can add additional metadata to be attached to the database object
     # URL (or comma separated URLs) to be stored in the application database object.
-    application_description = "An App to show case different Isabl functionalities."
+    application_description = "{{cookiecutter.description}}"
     application_url = "https://docs.isabl.io/writing-applications"
 
     # Applications can depend on multiple configurations such as paths to executables,
@@ -47,7 +47,7 @@ class {{cookiecutter.app_name}}(AbstractApplication):
     # Applications can be launched from the command line. To support this capability
     # you have to tell the application how to link analyses to different experiments.
     # Learn more: https://docs.isabl.io/writing-applications#command-line-configuration
-    cli_help = "This is the Hello World App - a way to learn Isabl applications."
+    cli_help = "{{cookiecutter.description}}"
     cli_options = [options.TARGETS, click.option("--message")]
     cli_allow_force = True
     cli_allow_restart = True
